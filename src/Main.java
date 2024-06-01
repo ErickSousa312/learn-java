@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         String [] lines = new String[] {"good morning", "good afternoon", "good night"};
 
-        String path= "C:\\Users\\erik-pc\\IdeaProjects\\learn-java\\src\\out.txt";
+        String path= "C:/Users/erik-pc/IdeaProjects/learn-java/src/out.txt";
         
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
             for (String line : lines) {
